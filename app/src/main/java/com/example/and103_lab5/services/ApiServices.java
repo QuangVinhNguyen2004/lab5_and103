@@ -15,7 +15,7 @@ import retrofit2.http.Path;
 import retrofit2.http.Query;
 
 public interface ApiServices {
-    public static String BASE_URL = "http://10.82.0.105:3000/api/";
+    public static String BASE_URL = "http://192.168.52.102:3001/api/";
 
     @GET("get-list-distributor")
         Call<Response<ArrayList<Distributor>>> getListDistributor();
